@@ -1,0 +1,57 @@
+input[type="text"] {
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+button {
+  padding: 6px 10px;
+  border-radius: 20px;
+  background: white;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+#input_div {
+  max-width: 40%;
+  display: flex;
+  margin: auto;
+  margin-top: 50px;
+  /* border: 1px solid black; */
+  border-radius: 25px;
+  background-color: white;
+}
+#show {
+  max-width: 40%;
+  /* display: flex; */
+  margin: auto;
+  /* border: 1px solid rgb(155, 150, 141); */
+  flex-direction: column;
+  border-radius: 20px;
+  background-color: white;
+}
+#img_div {
+  max-width: 25%;
+  display: flex;
+  margin: auto;
+  margin-top: 50px;
+}
+input {
+  width: 700px;
+  height: 40px;
+  border-radius: 25px;
+  border: none;
+}
+input:focus {
+  outline: none;
+}
+.showing {
+  cursor: pointer;
+}
+.showing {
+  padding: 1%;
+}
+body {
+  background-color: rgb(53, 54, 58);
+}
