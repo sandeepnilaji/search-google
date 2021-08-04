@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="search.css" />
+  </head>
+  <body>
+    <div id="img_div">
+      <img
+        src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+      />
+    </div>
+    <div>
+      <div id="input_div">
+        <button type="submit">
+          <i class="fa fa-search"></i>
+        </button>
+        <input
+          type="search"
+          id="searchs"
+          oninput="throttle()"
+          placeholder="Search Google or type Url"
+        />
+        <button style="font-size: 24px; color: rgb(66, 133, 244)">
+          <i class="fa fa-microphone"></i>
+        </button>
+      </div>
+      <div id="show"></div>
+    </div>
+  </body>
+</html>
+<script src="search.js"></script>
